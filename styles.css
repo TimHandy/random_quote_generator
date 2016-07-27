@@ -1,0 +1,35 @@
+* {
+// border: 1px red dashed;
+}
+
+body {
+ background: grey;
+}
+
+.container-fluid {
+// text-align: center;
+}
+
+.main-box {
+background: orange;
+ margin: 50px;
+ border: 10px black solid;
+ padding: 10px;
+
+}
+
+.center {
+ float: none;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+#quote-box {
+ padding: 0 0 10px 0;
+}
+
+#quote-button {
+// float:right;
+ margin-top: 30px ;
+ padding: 10px;
+}
