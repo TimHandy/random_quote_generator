@@ -2,20 +2,24 @@
 // border: 1px red dashed;
 }
 
+
+
 body {
  background: grey;
 }
 
 .container-fluid {
-// text-align: center;
 }
 
 .main-box {
 background: orange;
  margin: 50px;
- border: 10px black solid;
+ border: 5px black solid;
  padding: 10px;
+}
 
+#left-quote {
+/*   margin-top: 30px; */
 }
 
 .center {
@@ -28,8 +32,21 @@ background: orange;
  padding: 0 0 10px 0;
 }
 
+
+#tweet-quote {
+/*   display: inline-block;
+ border: 2px solid blue;
+ border-radius: 5px;
+ height: 30px;
+ font-color: #fff; */
+ display: block;
+ width: 110px;
+ margin-top: 50px;
+
+}
+
 #quote-button {
-// float:right;
- margin-top: 30px ;
- padding: 10px;
+   float: right;
+   display: inline;
+
 }

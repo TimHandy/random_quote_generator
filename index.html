@@ -12,7 +12,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
@@ -20,27 +20,21 @@
     <script src="javascript.js"></script>
   </head>
   <body>
-
     <div class="container-fluid main">
-      <div class="row">
-        <div class="col-md-6 col-sm-8 col-xs-12 center main-box">
-          <h1>Random Quote Generator</h1>
-          <h3 id="quote-box"></h3>
+          <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 center main-box">
+              <h1>Random Quote Generator <button class="btn btn-primary btn-lg" id="quote-button"><i class="fa fa-refresh"></i> New Quote</button></h1>
 
-          <a class="twitter-share-button" id="tweet-quote" title="Tweet this quote!" target="_blank">Tweet</a>
-          <br>
-          <button class="btn btn-primary btn-lg" id="quote-button">Quote</button>
-          <br>
-          <br>
+              <i id="left-quote" class="fa fa-quote-left fa-3x fa-pull-left"></i>
+              <h3 id="quote-box"></h3>
+              <a class="btn btn-primary btn-lg" id="tweet-quote" title="Tweet this quote!" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
 
-    <!--  TEST TWEET BUTTON PLACEMENT:
-      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Hello%20world">
-    Tweet</a>
+              <br>
 
-    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=You%20miss%20100%20percent%20of%20the%20shots%20you%20never%20take.%20-%20Wayne%20Gretzky" data-size="large">Tweet</a> -->
-
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </body>
+    </html>
   </body>
 </html>
