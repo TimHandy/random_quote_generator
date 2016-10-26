@@ -1,52 +1,47 @@
 * {
-// border: 1px red dashed;
+   // border: 1px red dashed;
 }
-
-
 
 body {
- background: grey;
-}
-
-.container-fluid {
+   background: grey;
 }
 
 .main-box {
-background: orange;
- margin: 50px;
- border: 5px black solid;
- padding: 10px;
-}
-
-#left-quote {
-/*   margin-top: 30px; */
+   background: orange;
+   margin: 50px;
+   border: 5px black solid;
+   padding: 10px;
 }
 
 .center {
- float: none;
- margin-left: auto;
- margin-right: auto;
+   float: none;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-#quote-box {
- padding: 0 0 10px 0;
+.quote-box {
+   padding: 0 0 0 50px;
 }
 
+.quote-div {
+   clear: both;
+}
+   .quote-div p {
+      text-align: right;
+   }
 
-#tweet-quote {
-/*   display: inline-block;
- border: 2px solid blue;
- border-radius: 5px;
- height: 30px;
- font-color: #fff; */
- display: block;
- width: 110px;
- margin-top: 50px;
-
+.quote-icon-left-div {
+   margin: 15px 0 0 0;
 }
 
-#quote-button {
+.tweet {
+   clear: both;
    float: right;
-   display: inline;
+   margin: 15px 0 0 0;
+}
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title></title>
 
@@ -9,32 +10,38 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 center main-box clearfix">
+                <h1>Random Quote Generator</h1>
+
+                <div class="quote-icon-left-div">
+                    <i id="left-quote" class="fa fa-quote-left fa-3x fa-pull-left"></i>
+                </div>
+
+                <div class="quote-div">
+                    <h3 id="quote-box" class="quote-box"></h3> <i id="left-right" class="fa fa-quote-right fa-3x fa-pull-right"></i>
+                </div>
+
+                <div class="tweet">
+                    <button class="btn btn-primary btn-lg" id="quote-button"><i class="fa fa-refresh"></i> New Quote</button>
+                    <a class="btn btn-primary btn-lg" id="tweet-quote" title="Tweet this quote!" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
     <script src="javascript.js"></script>
-  </head>
-  <body>
-    <div class="container-fluid main">
-          <div class="row">
-            <div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 center main-box">
-              <h1>Random Quote Generator <button class="btn btn-primary btn-lg" id="quote-button"><i class="fa fa-refresh"></i> New Quote</button></h1>
+</body>
 
-              <i id="left-quote" class="fa fa-quote-left fa-3x fa-pull-left"></i>
-              <h3 id="quote-box"></h3>
-              <a class="btn btn-primary btn-lg" id="tweet-quote" title="Tweet this quote!" target="_blank"><i class="fa fa-twitter"></i> Tweet</a>
-
-              <br>
-
-            </div>
-          </div>
-        </div>
-      </body>
-    </html>
-  </body>
 </html>
